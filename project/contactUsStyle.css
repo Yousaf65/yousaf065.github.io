@@ -1,0 +1,423 @@
+* {
+    box-sizing: border-box;
+  }
+
+/*
+ ============================================================================================
+                                         styling of header 
+   ============================================================================================
+    */
+
+  header{
+    /* height: 80px; */
+    width: 100%;
+  }
+.headerleft{
+    width: 50%;
+    float: left;
+}
+.headerright{
+    width: 50%;
+    float: left;
+    padding: 30px;
+    
+}
+.nevbar{
+    float: left;
+    width: 100%;
+    position:sticky;
+    background-color: black;
+    
+    
+}
+    nevbar ul{ 
+        list-style-type:none;
+        margin:0px;
+        padding:0px;
+        background-color:black;
+        overflow:hidden;
+       
+    }
+    .nevbar li{
+        float:left;
+      
+
+    }
+    
+     li a , .dropbtn{
+        display:inline-block;
+        padding:10px 10px;
+        font-size:15px;
+        margin-left: 20px;
+        text-transform:uppercase;
+        text-align:center;
+        text-decoration:none;
+        color: #f1f1f1;
+     }
+    li a:hover , .dropdown:hover .dropbtn{
+        color: #459431;
+        
+    }
+    li .dropdown{
+        display: inline-block;
+    }
+   
+    .dropdown-content{
+        display:none;
+        position:absolute;
+       
+        min-width:160px;
+        background-color: black;
+        box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
+        /* z-index:1; */
+    }
+    .dropdown:hover .dropdown-content
+    {
+        display:block;
+    
+    } 
+    .dropdown-content a{
+        display:block;
+        text-decoration: none;
+        color:#f1f1f1;
+       
+        text-align:left;
+    }
+    .dropdown-content a:hover{
+        background-color:#459431;
+        color: #f1f1f1;
+    }
+
+
+
+
+
+
+
+/*
+ ============================================================================================
+                                         styling of contact us top section 
+   ============================================================================================
+    */
+.top{
+    display: flex;
+    color: white;
+    width: 100%;
+    height:300px;
+    background-color: #459431;
+}
+.lefttop{
+    
+    font-size: 20px;
+    width: 50%;
+    height: 300px;
+    float: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -60px;
+    color:#f1f7f0;
+}
+.righttop{
+    float: left;
+    width: 50%;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+
+
+/* styling of getin section */
+.getin{
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.leftgetin{
+    
+    width: 25%;
+    height: 180px;
+    float: left;
+    padding: 40px;
+    
+    
+
+}
+.rightgetin{
+    float: left;
+    width: 75%;
+    height: 180px;
+    margin-top: 30px;
+    color: #aeb3ad;
+    font-size: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* stying of main section   */
+
+
+.main{
+    width: 100%;
+    height: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.leftmain{
+    /* font-size: ; */
+    margin-top: 20px;
+    width: 30%;
+    height: 800px;
+    float: left;
+    color: grey;
+    padding: 25px;
+}
+.leftmain p{
+    /* margin: 20px;
+    padding: 20px; */
+    font-size: 20px;
+}
+.leftmain h2{
+font-size: 30px;
+}
+.leftmain td{
+    font-size: 20px;
+    }
+.rightmain{
+    float: left;
+    width: 70%;
+    height: 800px;
+    color: grey;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+
+ input[type=submit], input[type=reset] {
+    background-color: #459431;
+    border: none;
+    color: #f1f1f1;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 25px;
+    width: 100%;
+  }
+  
+
+   input[type=submit]:hover
+  {
+    color: #459431;
+    background-color:#f1f1f1;
+  }
+  input[type=button]{
+    background: #f1f1f1;
+    color: #459431;
+    border: none;
+    float: right;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+  }
+  input[type=button]:hover{
+    background-color: black;
+    color: wheat;
+  }
+
+
+input[type=text],input[type=email],input[type=number]{
+    width:47%;
+    height:30px;
+    padding:30px;
+    margin:10px;
+    box-sizing:border-box;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    border: none;
+
+}
+input[type=text],input[type=email],input[type=number]:focus
+{
+    border: 2px solid #fff;
+}
+.addressClass input[type=text]{
+    width: 98%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    /* border: 2px solid #ccc; */
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    border: none;
+}
+select {
+    width: 98%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+  }
+
+textarea {
+    width: 98%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+ 
+
+
+
+
+
+
+
+
+ /* styling of regional office */
+
+ .col_orange{
+    border: none;
+    border-top: 1px solid #f00;
+    color: #fff;
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+ }
+ .container1
+ {
+     width: 100%;
+     height: 400px;
+     padding: 50px;
+     
+ }
+
+ .leftbox,.middlebox,.rightbox,.left2box,.middle2box
+ {
+    width: 32%;
+    height: 150px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+ }
+
+
+
+
+
+
+
+ /* styling farm section */
+ .container2
+ {
+     width: 100%;
+     height: 400px;
+     padding: 50px;
+     margin-top: 50px;
+     font-size: 20px;
+     
+ }
+ .fleftbox,.fmiddlebox
+ {
+    width: 32%;
+    height: 160px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+ }
+
+
+
+
+
+
+/*
+ ============================================================================================
+                                         styling of footer
+   ============================================================================================
+    */
+ .footer
+ {
+width: 100%;
+margin-top: 20px;
+padding: 30px;
+height: 600px;
+color: gray;
+background-color: black;
+ }
+
+ .col1,.col2,.col3,.col4{
+    float: left;
+    height: 400px;
+    width: 25%;
+    margin-top: 0px;
+
+ }
+
+ .lastrow{
+    width: 100%;
+    height: 20px;
+    padding: 30px;
+    float: left;
+    color: aliceblue;
+    margin-top: 20px;
+    
+
+ }
+.col1 p:hover{
+    color: #459431;
+}
+.col3  p:hover{
+    color: #459431;
+}
+.col4 p:hover{
+    color: #459431;
+}
+ .col2 a{
+    text-decoration: none;
+    color:gray;
+    
+ }
+ .col2 a:hover{
+color: #459431;
+ }
+ 
+ .footer h2{
+    color: white;
+ }
